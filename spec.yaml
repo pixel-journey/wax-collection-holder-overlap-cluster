@@ -1,0 +1,22 @@
+blueprint:
+  id: wax-collection-holder-overlap-cluster
+  tier: community-analytics
+  status: alpha-ready
+  benchmark_target: PX-Perfection-Standard-v1.0
+
+features:
+  - jaccard_similarity_network_graph
+  - force_directed_d3_visualization
+  - multi_collection_overlap_analysis
+  - interactive_forensic_dashboard
+
+recommended_stack:
+  viz: D3 force-directed
+  computation: Jaccard + Web Worker
+  data: AtomicAssets v2 accounts
+
+machine_instructions:
+  - "Build interactive force-directed graph using D3 for collection holder overlap"
+  - "Implement Jaccard similarity calculation in Web Worker"
+  - "Create clear educational UI with tooltips and filtering"
+  - "Add multi-collection mode and export capabilities"
