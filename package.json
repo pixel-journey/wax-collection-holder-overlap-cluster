@@ -1,0 +1,12 @@
+{
+  "name": "wax-collection-holder-overlap-cluster",
+  "private": true,
+  "description": "Jaccard on two caller-supplied account lists. The page button is still Math.random.",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.0",
+    "vitest": "^2.1.8"
+  }
+}
