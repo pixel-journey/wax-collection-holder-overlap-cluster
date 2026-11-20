@@ -15,7 +15,7 @@ That URL returned 200 on 2026-10-26. Docs: [AtomicAssets](https://docs.wax.io/ap
 The local ratio already tested in `wax-ecosystem-affinity-bubble-map` is "2 shared of a union of 4 is 5000 bps", and it is not a map. Use that only on ids you actually hold in memory. `wax-cross-game-achievement-overlay` intersects two id lists the same way. Neither one queries a collection.
 ## Shared rules
 
-This file does not send the requests. The README and any page already in the repo were not replaced. The tested request builder is `wax-public-endpoint-failover` (private index; not this public course) (`docs/USAGE-EXAMPLES.md`).
+This file does not send the requests. The README and any page already in the repo were not replaced. The tested request builder lives in `wax-public-endpoint-failover`, which is still private.
 
 - One family, one list, at most five https origins. Walk in order. Stop at the first success. A custom origin is allowed. `http` is only for localhost.
 - Trust a chain or history host only after `chain_id` is `1064487b3cd1a897ce03ae5b6a865651747e2e152090f99c1d19d44e01aea5a4`.
