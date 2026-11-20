@@ -1,7 +1,7 @@
 # Shared accounts, divided by the union
 
 **Trust label:** `educational-reference`  
-**Catalog:** [wax-ecosystem-blueprint-catalog](https://github.com/pixel-journey/wax-ecosystem-blueprint-catalog)
+**Catalog:** `wax-ecosystem-blueprint-catalog` (private index; not this public course)
 
 `alice`+`bob` against `bob`+`carol` is `1/3`. The Analyze button is not this function.
 
